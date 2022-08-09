@@ -15,6 +15,7 @@ export const styles = StyleSheet.create({
         fontSize: 60,
         color: 'white',
         textAlign: 'right',
+        marginBottom: 10
          
     },
     resultadoChico: {
@@ -28,7 +29,7 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
         
     },
-    boton: {
+    boton: {   
         height: 80,
         width: 80,
         backgroundColor: '#2d2d2d',
@@ -36,14 +37,14 @@ export const styles = StyleSheet.create({
         justifyContent:'center',
         alignItems:'center',
         marginHorizontal: 5,
-        marginVertical: 5
+        marginVertical: 6
 
     },
     botonText: {
-        fontSize: 40,
+        fontSize: 30,
         color: 'white',
         alignSelf: 'center',
-        fontWeight: '400'       
+        fontWeight: '300'       
         
     }
 
